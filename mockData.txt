@@ -1,0 +1,37 @@
+const mockData = [
+    {
+        title : "title1",
+        id : "0001",
+        url : "www.youtube.com",
+        dateAdded : "2024-11-08",
+        datesCompleted : ["2024-11-12"]
+    },
+    {
+        title : "title2",
+        id : "0002",
+        url : "www.youtube.com",
+        dateAdded : "2024-10-08",
+        datesCompleted : ["2024-10-12", "2024-10-29"]
+    },
+    {
+        title : "title3",
+        id : "0003",
+        url : "www.youtube.com",
+        dateAdded : "2024-08-08",
+        datesCompleted : ["2024-08-12", "2024-09-20", "2024-10-10"]
+    },
+    {
+        title : "title4",
+        id : "0004",
+        url : "www.youtube.com",
+        dateAdded : "2024-04-08",
+        datesCompleted : ["2024-04-12", "2024-05-20", "2024-06-10", "2024-07-20", "2024-08-05", "2024-08-10"]
+    },
+    {
+        title : "title5",
+        id : "0005",
+        url : "www.youtube.com",
+        dateAdded : "2024-11-21",
+        datesCompleted : []
+    }
+];

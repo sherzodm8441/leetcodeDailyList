@@ -1,0 +1,22 @@
+{
+  "name": "Letcode Reinforce",
+  "description": "Create a list of Leetcode problems to be completed daily",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "hello_extensions.png"
+  },
+  "permissions" : ["storage", "activeTab"],
+  "host_permissions": ["https://*.leetcode.com/*"],
+  "background" : {
+    "service_worker" : "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.leetcode.com/problems/*"],
+      "js": ["contentScript.js"],
+      "run_at": "document_end" 
+    }
+  ]
+}

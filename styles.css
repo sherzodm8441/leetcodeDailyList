@@ -1,0 +1,66 @@
+.header {
+    width: 400px;
+}
+
+h1 {
+    color:hsl(0, 0%, 90%);
+}
+
+body {
+    background-color: hsl(0, 0%, 50%);
+    padding-bottom: 5px;
+}
+
+h4 {
+    color:hsl(0, 0%, 90%);
+    font-weight: bold;
+    font-size: 16px;
+    margin: 4px;
+}
+
+.todo-div {
+    background-color: hsl(0, 0%, 40%);
+    border-radius: 10px;
+    margin: 4px;
+    padding: 4px;
+}
+.completed-div {
+    background-color: hsl(0, 0%, 40%);
+    border-radius: 10px;
+    margin: 4px;
+    padding: 4px;
+}
+.allproblems-div {
+    background-color: hsl(0, 0%, 40%);
+    border-radius: 10px;
+    margin: 4px;
+    padding: 4px;
+    
+}
+
+.problems {
+    max-height:100px;
+    overflow-y:scroll;
+}
+
+a {
+    color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.a-div {
+    margin-bottom: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.check {
+    accent-color: hsl(0, 0%, 60%);
+    cursor: pointer;
+}
+
